@@ -20,7 +20,7 @@ function Home() {
       
             <div>
                <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center 
-               rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+               rounded-md bg-gradient-to-r from-green-500 to-green-900 cursor-pointer">
                  Portfolio
                  <span className="group-hover:rotate-90 duration-300">
                    <FaArrowRight className="ml-1" size={25}/>
@@ -29,7 +29,7 @@ function Home() {
             </div>
           </div>
             <div>
-              <img src={HeroImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+              <img src={HeroImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full duration-200 hover:scale-105"/>
             </div>
           </div>
         </div>
