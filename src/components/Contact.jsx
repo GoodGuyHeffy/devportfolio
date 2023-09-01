@@ -1,4 +1,6 @@
 import React from 'react';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 
 function Contact() {
@@ -8,7 +10,12 @@ function Contact() {
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
-                <p className="py-6">Submit the form below to get in touch with me</p>
+                <p className="py-6">Submit the form below or click the icons to get in touch with me.</p>
+                <div className='flex justify-center items-center '>
+                <BsFillPersonLinesFill size={25} className='mx-2 hover:scale-150 duration-300'/>
+                  <a target="_blank" href="https://github.com/GoodGuyHeffy"><AiFillGithub size={25} className='mx-2  hover:scale-150 duration-300'/></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/joshhoffert1/"><AiFillLinkedin size={25} className='mx-2 text-blue-500 bg-white rounded  hover:scale-150 duration-300'/></a>
+                </div>
             </div>
 
             <div className="flex justify-center items-center">
@@ -18,7 +25,7 @@ function Contact() {
                     <input type="text" name="email" placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"/>
                     <textarea name="message" rows="10" placeholder="Enter your message" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"></textarea>
                     <button className="text-white bg-gradient-to-b from-green-500 to-green-900 px-6 py-3 my-8 mx-auto
-                     flex items-center rounded-md hover:scale-110 duration-300">Let's Connect</button>
+                     flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
                 </form>
             </div>
 

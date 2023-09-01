@@ -20,7 +20,7 @@ function Home() {
                 </p>
       
             <div>
-               <Link to="portfolio" smooth duration={500} className=" group text-white w-fit px-6 py-3 my-2 flex items-center 
+               <Link to="portfolio" smooth duration={500} className=" group text-white w-fit px-6 py-2 my-2 flex items-center 
                rounded-md bg-gradient-to-r from-green-500 to-green-900 cursor-pointer">
                  Portfolio
                  <span className="group-hover:rotate-90 duration-300">
@@ -30,7 +30,7 @@ function Home() {
             </div>
           </div>
             <div>
-              <img src={HeroImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full duration-200 hover:scale-105"/>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Port_Washington,_Wisconsin"><img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/04/1-33.jpg" alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full duration-200 hover:scale-105"/></a>
             </div>
           </div>
         </div>

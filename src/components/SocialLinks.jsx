@@ -12,7 +12,7 @@ function SocialLinks() {
         child: (
             <>LinkedIn <FaLinkedin size={30}/></>
         ),
-        href: 'https://linkedin.com',
+        href: 'https://www.linkedin.com/in/joshhoffert1/',
         style: 'rounded-tr-md'
     },
     {
