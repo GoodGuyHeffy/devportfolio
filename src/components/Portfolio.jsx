@@ -48,12 +48,12 @@ function Portfolio() {
              {
                 portfolios.map(({id, src, href, repo, info}) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                    <a target="_blank" href={href}><img src={src} alt="/" className="rounded-md duration-200 hover:scale-105"/></a>
+                    <a target="_blank" rel="noreferrer" href={href}><img src={src} alt="/" className="rounded-md duration-200 hover:scale-105"/></a>
                     <div className="flex flex-col items-center justify-center">
                         <p className='flex m-4 text-sm md:text-base'>{info}</p>
                        <div className='flex'>
-                        <a target="_blank"  href={href}><button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-green-500">Demo</button></a>
-                        <a target="_blank" href={repo} ><button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-green-500">Code</button></a>
+                        <a target="_blank" rel="noreferrer"  href={href}><button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-green-500">Demo</button></a>
+                        <a target="_blank" rel="noreferrer" href={repo} ><button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-green-500">Code</button></a>
                         </div>
                     </div>
                 </div>
